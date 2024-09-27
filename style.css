@@ -1,0 +1,49 @@
+/* RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none; 
+    /* para tirar o sublinhado do link */
+    color: inherit;
+    /* para nao ter cor nos links */
+}
+ul, ol, li{
+    list-style: none;
+    /* para tirar as caracteristicas da lista (como bolinhas, 123) */
+}
+/* fim do reset */
+
+body{
+    /* sempre vai ter a largura inteira e não a altura */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* falar que eles vao ficar organizados em colunas */
+    padding-inline: 80px;
+    /* inline significa direita e esquerda */
+    background-color: #E9DABE;
+}
+.lupa{
+    width: 30px;
+    height: 30px;
+    color: #776b5d;
+
+}
+h1{
+    font-family: "Meddon", cursive;  /*configurações da fonte */
+    font-weight: 400;    /*configurações da fonte */
+    font-style: normal;  /*configurações da fonte */
+    font-size: 900%;
+}
+header{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    /* se espalha mais o que vc puder */
+    align-items: center;
+    /* para deixar no centro da div */
+
+}
