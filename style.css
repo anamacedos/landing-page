@@ -137,13 +137,16 @@ main{
 }
 
 .foto{
-    width: 50%;
+    width: 70%;
+    
 
 
 }
 .foto img{
     width: 100%;
-    margin-top: 13%;
+    /* margin-top: %; */
+    justify-content: top;
+    display: flex;
 }
 
 .primeiro{
@@ -168,4 +171,18 @@ main{
     border: 2px solid #776b5d; /* Borda fina */
     border-radius: 8px;
     margin-top: 3%;
+}
+
+footer{
+    background-color: cfc5bb;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfc5bb;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
 }
