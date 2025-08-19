@@ -1,5 +1,5 @@
 # landing-page - Essence
-# Landing Page - Let's Go, Pikachu
+
 ![](./Captura%20de%20Tela%202024-10-04%20às%2017.07.07.png)
 
 ---
